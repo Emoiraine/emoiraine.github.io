@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "myblog",
+    "title": "My Data Science Blog",
     "section": "",
     "text": "news\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 19, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 16, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
@@ -25,6 +25,20 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this blog"
+    "text": "#Eva Shaw #Data Analyst for Conservice since Aug. 2021 #Rexburg, Idaho, United States\n:::{#hero-heading}\nEva Shaw is a Data Analyst for Conservice. She has helped coordinate complete data restructure over 12+ teams and created templates for accurate data archives as well as new tracking tools utilizing:\n*Programs such as - Google Sheets,Google Colab,Excel, and Power Bi\n*Languages such as - Google App Script/JavaScript and Python\nI also created high level summaries and data visualizations for the CFO to analyze team production, accuracy, prioritize tasks, and visualize corporate profits and losses.\n##What’s this Blog about?\nI struggled so you don’t have to. I will be updating and sharing functions, templates, scripts, and codes. What worked for me and what didn’t. I’ll be sharing all the tips and tricks I discovered along the way and know I can apply them to future projects along the way."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nBrigham Young University - Idaho | Rexburg, ID Bachelors in Data Science |"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\nConservice | Data Analyst | Aug 2021 - Present\nVolunteer for USAF Department of Defense | Project Manager | UAV Visual Altimeter Project | September 2019 - December 2019|"
   }
 ]

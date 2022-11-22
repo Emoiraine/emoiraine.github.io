@@ -1,8 +1,8 @@
 ---
-title: "Post With Code"
-author: "Harlow Malloc"
-date: "2022-09-19"
-categories: [news, code, analysis]
+title: "Collab my Google Docs Please"
+author: "Eva Shaw"
+date: "2022-11-21"
+categories: [code, analysis]
 image: "image.jpg"
 ---
 

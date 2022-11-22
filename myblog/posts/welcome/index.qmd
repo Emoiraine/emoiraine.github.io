@@ -1,11 +1,14 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
-date: "2022-09-16"
-categories: [news]
+title: "Fun and Functions"
+author: "Eva Shaw"
+date: "2022-11-21"
+categories: [code, analysis]
 ---
 
+##What can I hide? 
 This is the first post in a Quarto blog. Welcome!
+
+##How can I calculate?
 
 ![](thumbnail.jpg)
 

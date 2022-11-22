@@ -2,7 +2,10 @@
 title: "About"
 image: profile.jpg
 about:
-  template: jolla
+  id: hero-heading
+  template: trestles
+  image-width: 10em
+  image-shape: round
   links:
     - icon: linkedin
       text: LinkedIn
@@ -17,10 +20,13 @@ about:
 #Data Analyst for Conservice since Aug. 2021
 #Rexburg, Idaho, United States
 
-##Who am I?
-I am currently a Data Analyst for Conservice. I've helped Coordinate complete data restructure over 12+ teams and created templates for accurate data archives as well as new tracking tools utilizing:
+:::{#hero-heading}
+
+Eva Shaw is a Data Analyst for Conservice.
+She has helped coordinate complete data restructure over 12+ teams and created templates for accurate data archives as well as new tracking tools utilizing:
 
 *Programs such as - Google Sheets,Google Colab,Excel, and Power Bi
+
 *Languages such as - Google App Script/JavaScript and Python
 
 I also created high level summaries and data visualizations for the CFO to analyze team production, accuracy, prioritize tasks, and visualize corporate profits and losses.
@@ -29,3 +35,16 @@ I also created high level summaries and data visualizations for the CFO to analy
 
 I struggled so you don't have to. I will be updating and sharing functions, templates, scripts, and codes. What worked for me and what didn't. I'll be sharing all the tips and tricks I discovered along the way and know I can apply them to future projects along the way. 
 
+## Education 
+
+Brigham Young University - Idaho | Rexburg, ID
+Bachelors in Data Science |
+
+## Experience
+
+Conservice | Data Analyst | Aug 2021 - Present
+
+Volunteer for USAF Department of Defense | Project Manager | UAV Visual Altimeter Project |
+September 2019 - December 2019|
+
+:::

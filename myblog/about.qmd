@@ -16,10 +16,6 @@ about:
 
 ---
 
-#Eva Shaw
-#Data Analyst for Conservice since Aug. 2021
-#Rexburg, Idaho, United States
-
 :::{#hero-heading}
 
 Eva Shaw is a Data Analyst for Conservice.

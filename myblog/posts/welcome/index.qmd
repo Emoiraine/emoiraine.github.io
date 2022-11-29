@@ -5,8 +5,7 @@ date: "2022-11-21"
 categories: [code, analysis]
 ---
 
-|What can I hide?|
-|----------------|
+## What can I hide?
 
 When archiving or tracking data in the office we want to be able to allow team leaders to easily add or remove people as they come and go. They often have to update or change the type of tasks they are tracking as well, all of which means you have Joe Schmo, making changes to documents and records in your data. 
 

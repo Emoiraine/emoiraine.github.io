@@ -1,0 +1,9 @@
+---
+title: "Collab my Google Docs Please"
+author: "Eva Shaw"
+date: "2022-11-21"
+categories: [code, analysis]
+image: "image.jpg"
+---
+
+This is a post with executable code.

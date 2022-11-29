@@ -21,7 +21,7 @@ It's super simple but has been appreciated by many in my department as well as t
 
 You can do this instead 
 
-|Week|Date|User|={"Accounts Added to Login Manager";ArrayFormula(IF(B2:B="","",COUNTIFS(ACCOUNTS!E:E,C2:C,ACCOUNTS!B:B,B2:B)))|
+|Week|Date|User|={"Accounts Added to Login Manager";ArrayFormula(IF(B2:B="","",COUNTIFS(ACCOUNTS!E:E,C2:C,ACCOUNTS!B:B,B2:B)))}|
 |----|----|----|-------------------------------|
 |1|01/01/2022|eshaw|54|
 |1|01/01/2022|hess|32|
@@ -35,6 +35,8 @@ What they see is
 
 And now if eshaw is no longer on the team or with the company, anybody can come in to remove or replace them without completely removing the formula and data for all the others below them. 
 
+Super simple and yet it saves me a lot of work and time when people have to reach out to me to fix things. 
+
 
 |How can I calculate?|
 |--------------------|
@@ -43,4 +45,3 @@ Using & in my SUM functions.
 
 ![](thumbnail.jpg)
 
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.

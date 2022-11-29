@@ -1,11 +1,11 @@
 ---
-title: "About"
+title: "Eva Shaw"
 image: profile.jpg
 about:
   id: hero-heading
   template: trestles
   image-width: 10em
-  image-shape: round
+  image-shape: rectangle
   links:
     - icon: linkedin
       text: LinkedIn

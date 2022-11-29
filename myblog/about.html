@@ -8,10 +8,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 
-<meta name="author" content="Eva Shaw" />
-<meta name="dcterms.date" content="2022-11-21" />
 
-<title>Eva Shaw – Fun and Functions</title>
+<title>Eva Shaw – About</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -47,9 +45,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../../styles.css" />
+<link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
@@ -98,156 +95,47 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
 <header id="title-block-header" class="quarto-title-block default">
-  <div class="quarto-title-banner">
-    <div class="quarto-title column-body">
-      <h1 class="title">Fun and Functions</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">code</div>
-                <div class="quarto-category">analysis</div>
-              </div>
-                  </div>
+<div class="quarto-title">
+<h1 class="title">About</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
   </div>
-    
   
-  <div class="quarto-title-meta">
 
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Eva Shaw </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">November 21, 2022</p>
-      </div>
-    </div>
-      
-    </div>
-    
-  
-  </header>
+</header>
 
-<table>
-<thead>
-<tr class="header">
-<th>What can I hide?</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<p>When archiving or tracking data in the office we want to be able to allow team leaders to easily add or remove people as they come and go. They often have to update or change the type of tasks they are tracking as well, all of which means you have Joe Schmo, making changes to documents and records in your data.</p>
-<p>We all know that Array formulas allow us to run a single function on thousands of rows at a time. Saving valuable run time and preventing a lot of data deletion and error. Where this saves us, it still means we have to place the formula on a vulnerable line, or so I thought. I thought I had to put my column names in row 1 and my formula in row 2, that also has an employee attached for tracking. If a team leader needed to remove or replace them, more often than not they delete the line or clear it to add a new person or just remove them permanently.</p>
-<p>It’s super simple but has been appreciated by many in my department as well as team members as we work with their teams. You can place your Array formulas in your column headers. Normally you would have something like</p>
-<table>
-<colgroup>
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 72%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Week</th>
-<th>Date</th>
-<th>User</th>
-<th>Accounts Added to Login Manager</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>01/01/2022</td>
-<td>eshaw</td>
-<td><span class="math display">\[=ArrayFormula(IF(B2:B=&quot;&quot;,&quot;&quot;,COUNTIFS(ACCOUNTS!E:E,C2:C,ACCOUNTS!B:B,B2:B)))\]</span></td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td>01/01/2022</td>
-<td>hess</td>
-<td>32</td>
-</tr>
-</tbody>
-</table>
-<p>You can do this instead</p>
-<table>
-<colgroup>
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 72%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Week</th>
-<th>Date</th>
-<th>User</th>
-<th>={“Accounts Added to Login Manager”;ArrayFormula(IF(B2:B=““,”“,COUNTIFS(ACCOUNTS!E:E,C2:C,ACCOUNTS!B:B,B2:B)))</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>01/01/2022</td>
-<td>eshaw</td>
-<td>54</td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td>01/01/2022</td>
-<td>hess</td>
-<td>32</td>
-</tr>
-</tbody>
-</table>
-<p>What they see is</p>
-<table>
-<thead>
-<tr class="header">
-<th>Week</th>
-<th>Date</th>
-<th>User</th>
-<th>Accounts Added to Login Manager</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>01/01/2022</td>
-<td>eshaw</td>
-<td>54</td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td>01/01/2022</td>
-<td>hess</td>
-<td>32</td>
-</tr>
-</tbody>
-</table>
-<p>And now if eshaw is no longer on the team or with the company, anybody can come in to remove or replace them without completely removing the formula and data for all the others below them.</p>
-<table>
-<thead>
-<tr class="header">
-<th>How can I calculate?</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<p>Using &amp; in my SUM functions.</p>
-<p><img src="thumbnail.jpg" class="img-fluid" /></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+<div id="hero-heading">
+<p>Eva Shaw is a Data Analyst for Conservice. She has helped coordinate complete data restructure over 12+ teams and created templates for accurate data archives as well as new tracking tools utilizing:</p>
+<p>*Programs such as - Google Sheets,Google Colab,Excel, and Power Bi</p>
+<p>*Languages such as - Google App Script/JavaScript and Python</p>
+<p>I also created high level summaries and data visualizations for the CFO to analyze team production, accuracy, prioritize tasks, and visualize corporate profits and losses.</p>
+<p>##What’s this Blog about?</p>
+<p>I struggled so you don’t have to. I will be updating and sharing functions, templates, scripts, and codes. What worked for me and what didn’t. I’ll be sharing all the tips and tricks I discovered along the way and know I can apply them to future projects along the way.</p>
+<section id="education" class="level2">
+<h2>Education</h2>
+<p>Brigham Young University - Idaho | Rexburg, ID Bachelors in Data Science |</p>
+</section>
+<section id="experience" class="level2">
+<h2>Experience</h2>
+<p>Conservice | Data Analyst | Aug 2021 - Present</p>
+<p>Volunteer for USAF Department of Defense | Project Manager | UAV Visual Altimeter Project | September 2019 - December 2019|</p>
+</section>
+</div>
 <div id="quarto-navigation-envelope" class="hidden">
 <p><span class="hidden" data-render-id="quarto-int-sidebar-title">Eva Shaw</span> <span class="hidden" data-render-id="quarto-int-navbar-title">Eva Shaw</span> <span class="hidden" data-render-id="quarto-int-navbar:About">About</span></p>
 </div>
+<div id="quarto-about-pipeline" class="hidden">
+<p><span class="hidden" data-render-id="LinkedIn">LinkedIn</span> <span class="hidden" data-render-id="Github">Github</span></p>
+</div>
 <div id="quarto-meta-markdown" class="hidden">
-<p><span class="hidden" data-render-id="quarto-metatitle">Eva Shaw - Fun and Functions</span> <span class="hidden" data-render-id="quarto-twittercardtitle">Eva Shaw - Fun and Functions</span> <span class="hidden" data-render-id="quarto-ogcardtitle">Eva Shaw - Fun and Functions</span> <span class="hidden" data-render-id="quarto-metasitename">Eva Shaw</span></p>
+<p><span class="hidden" data-render-id="quarto-metatitle">Eva Shaw - About</span> <span class="hidden" data-render-id="quarto-twittercardtitle">Eva Shaw - About</span> <span class="hidden" data-render-id="quarto-ogcardtitle">Eva Shaw - About</span> <span class="hidden" data-render-id="quarto-metasitename">Eva Shaw</span></p>
 </div>
 
 </main> <!-- /main -->
@@ -271,13 +159,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;

@@ -38,7 +38,7 @@ And now if eshaw is no longer on the team or with the company, anybody can come 
 |How can I calculate?|
 |--------------------|
 
-Using & in my SUM functions. 
+ 
 
 ![](thumbnail.jpg)
 
